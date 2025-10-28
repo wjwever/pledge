@@ -20,9 +20,9 @@ Pledge 是一个去中心化金融（DeFi）项目，旨在提供固定利率的
 
    > 如果有一方的token数量为0，那么settle 失败，此时另一方可以取回自己的token
 
-4. alice可领取和成比例数量的spToken，后续可以凭此token 领取本金+收益。
+4. alice可领取和成比例数量的spToken，后续可以凭spToken 领取本金+收益。
 
-5. bob可以领取一定数量的jpToken，后续凭此token可以赎回自己质押的btc。同样bob可以领取到自己的借款，因为池子有质押率，如果为2，那么bob可以借到 10 / 2 = 5 个 usdc。
+5. bob可以领取一定数量的jpToken，后续凭jpToken可以赎回自己质押的btc。同样bob可以领取到自己的借款，因为池子有质押率，如果为2，那么bob可以借到 10 / 2 = 5 个 usdc。
 
    > 规定质押率是为了抵抗bob质押的token价格下跌，导致无法偿还alice的债务的风险。
 
