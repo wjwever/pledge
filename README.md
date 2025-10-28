@@ -10,7 +10,7 @@ Pledge 是一个去中心化金融（DeFi）项目，旨在提供固定利率的
 
 ## 业务流程
 
-1. 管理员admin创建借贷池子，指定质押borrow token，假设为btc，借贷（lend）token，假设为usdc
+1. 管理员admin创建借贷池子，指定质押borrow token，假设为btc，借贷lend token，假设为usdc
 
    > 假设此时btc和usdc的价格都是 1dollar
 
@@ -33,7 +33,7 @@ Pledge 是一个去中心化金融（DeFi）项目，旨在提供固定利率的
    * 如果btc的价格下跌到0.55dollar，管理员提前进行 **清算**， 卖掉一定的btc转换为usdc，用来支付alice的5个usdc本金+收益，剩余的btc还给bob。
 
 ## 测试
-
+ .env_template 填入APIkey
  ```bash
  anvil  --fork-url sepolia --fork-block-number 9502032
  forge test --via-ir --rpc-url http://localhost:8545  -vvv
