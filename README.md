@@ -18,7 +18,7 @@ Pledge 是一个去中心化金融（DeFi）项目，旨在提供固定利率的
 
 3. 管理员进行撮合（settle）， alice 和bob的token锁再池子里面，无法取回
 
-> 如果有一方的token数量为0，那么settle 失败，此时另一方可以取回自己的token
+   > 如果有一方的token数量为0，那么settle 失败，此时另一方可以取回自己的token
 
 4. alice可领取和成比例数量的spToken，后续可以凭此token 领取本金+收益。
 
